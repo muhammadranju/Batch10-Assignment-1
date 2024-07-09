@@ -226,13 +226,13 @@
 }
 .inspiration-title-section h1 {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
+
   font-size: 32px;
   font-weight: 800;
 }
 .inspiration-title-section p {
   color: rgba(13, 19, 33, 0.7);
-  font-family: Azeret Mono;
+
   font-size: 16px;
   font-weight: 400;
   width: 1000px;
@@ -281,13 +281,11 @@
 }
 .current-target-text-section h1 {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 42px;
   font-weight: 800;
 }
 .current-target-text-section p {
   color: rgba(13, 19, 33, 0.7);
-  font-family: Azeret Mono;
   font-size: 18px;
   font-weight: 400;
   width: 952px;
@@ -314,21 +312,18 @@
 }
 .current-target-item-section h1 {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 30px;
   font-weight: 800;
   margin-top: 40px;
 }
 .current-target-item-section p {
   color: rgba(13, 19, 33, 0.7);
-  font-family: Azeret Mono;
   font-size: 18px;
   font-weight: 400;
   margin-top: 30px;
 }
 .current-target-item-section div {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 700;
   margin-top: 50px;
@@ -338,3 +333,77 @@
 }
 
 /* End My Current Target Section Style */
+
+/*  Start My Next Target Section Style */
+.next-target-section {
+  border: 2px solid red;
+  margin-top: 100px;
+}
+.next-target-title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.next-target-title-section h1 {
+  color: rgb(13, 19, 33);
+  font-size: 42px;
+  font-weight: 800;
+}
+.next-target-title-section p {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 18px;
+  font-weight: 400;
+  width: 1100px;
+  margin-top: 24px;
+}
+
+.next-target-contents-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.next-target-item-section {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 18px;
+  padding: 40px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  width: 1600px;
+  height: 219px;
+  margin-top: 30px;
+}
+.next-target-item-section h1 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.next-target-item-section p {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 18px;
+  font-weight: 400;
+  width: 941.22px;
+  margin-bottom: 40px;
+}
+
+.next-target-item-section img {
+  height: 108px;
+  padding: 20px;
+}
+.next-target-item-section div {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 700;
+  /* margin-top: 30px; */
+}
+.next-target-item-section div > a {
+  color: rgb(13, 19, 33);
+  margin-top: 10px;
+}
+/*  End My Next Target Section Style */

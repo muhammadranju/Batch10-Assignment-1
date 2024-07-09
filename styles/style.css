@@ -18,7 +18,6 @@
   width: 244px;
   height: 65px;
   color: rgb(255, 255, 255);
-
   font-size: 20px;
   font-weight: 600;
   border-radius: 8px;
@@ -47,7 +46,6 @@
   width: 244px;
   height: 57px;
   color: rgb(13, 19, 33);
-
   font-size: 20px;
   font-weight: 600;
   box-sizing: border-box;
@@ -122,7 +120,7 @@
 }
 .dev-title-section p {
   width: 900px;
-  color: rgb(13, 19, 33);
+  color: rgba(13, 19, 33, 0.7);
   font-size: 18px;
   font-weight: 400;
   margin-top: 24px;
@@ -152,7 +150,7 @@
 }
 .dev-item-section-left p {
   width: 468px;
-  color: rgb(13, 19, 33);
+  color: rgba(13, 19, 33, 0.7);
   font-size: 18px;
   font-weight: 400;
   margin-top: 20px;
@@ -206,7 +204,7 @@
 }
 .dev-item-section-right p {
   width: 468px;
-  color: rgb(13, 19, 33);
+  color: rgba(13, 19, 33, 0.7);
   font-size: 18px;
   font-weight: 400;
   margin-top: 20px;
@@ -214,3 +212,43 @@
 }
 
 /* End Development Section Style */
+
+/* Start My Inspiration Section Style  */
+
+.inspiration-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+}
+.inspiration-title-section h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+}
+.inspiration-title-section p {
+  color: rgb(73, 77, 83);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  width: 1000px;
+  margin-top: 25px;
+}
+.inspiration-video-section {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 30px;
+  margin-top: 50px;
+}
+.inspiration-video-section iframe {
+  border-radius: 16px;
+  /* width: 1076px;
+  height: 550px; */
+}
+
+/* End My Inspiration Section Style  */

@@ -10,11 +10,19 @@
 * {
   margin: 0;
   padding: 0;
-  max-width: 1920px;
+  /* max-width: 1920px; */
 }
 
 /* Shared Style */
 .btn-primary {
+  width: 244px;
+  height: 65px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
 }
 
 /* Start Navbar Style */
@@ -49,3 +57,37 @@
   cursor: pointer;
 }
 /* End Navbar Style */
+
+/* Start Hero Banner Section Style  */
+.hero-banner-section {
+  background-image: url("../assets/Hero-bg.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 640px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.hero-banner-section img {
+  height: 240px;
+  margin-top: 30px;
+}
+.hero-banner-section h1 {
+  width: 1120px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 43px;
+  font-weight: 800;
+  margin-top: 30px;
+}
+.hero-banner-section p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  width: 852px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+/* End Hero Banner Section Style  */

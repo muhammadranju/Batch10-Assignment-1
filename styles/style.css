@@ -1,4 +1,4 @@
-/* import Azeret Mono Font from Google Font */
+/* import Inter Font from Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
 .azeret-mono {
@@ -6,11 +6,11 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 /* Global Style */
 * {
   margin: 0;
   padding: 0;
-  /* max-width: 1920px; */
 }
 
 /* Shared Style */
@@ -18,7 +18,7 @@
   width: 244px;
   height: 65px;
   color: rgb(255, 255, 255);
-  font-family: Azeret Mono;
+
   font-size: 20px;
   font-weight: 600;
   border-radius: 8px;
@@ -39,7 +39,7 @@
 }
 .navbar-section h1 {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
+
   font-size: 28px;
   font-weight: 800;
 }
@@ -47,7 +47,7 @@
   width: 244px;
   height: 57px;
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
+
   font-size: 20px;
   font-weight: 600;
   box-sizing: border-box;
@@ -76,18 +76,141 @@
 .hero-banner-section h1 {
   width: 1120px;
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
-  font-size: 43px;
+  font-size: 53px;
   font-weight: 800;
   margin-top: 30px;
 }
 .hero-banner-section p {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
-  font-size: 16px;
+  color: rgb(40, 46, 59);
+
+  font-size: 18px;
   font-weight: 400;
-  width: 852px;
+  width: 952px;
   margin-top: 30px;
   margin-bottom: 45px;
 }
 /* End Hero Banner Section Style  */
+
+/* Start Development  Section Style */
+
+.development-section {
+  width: 1700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  /* height: 1000px; */
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.dev-container-section {
+  margin-bottom: 80px;
+}
+.dev-title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.dev-title-section h1 {
+  color: rgb(13, 19, 33);
+  font-size: 42px;
+  font-weight: 800;
+  margin-top: 80px;
+}
+.dev-title-section p {
+  width: 900px;
+  color: rgb(13, 19, 33);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.dev-item-section-left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 16px;
+  gap: 400px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  width: 1500px;
+  height: 430px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.dev-item-section-left h1 {
+  color: rgba(13, 19, 33, 0.7);
+  width: 490px;
+  font-size: 34px;
+  font-weight: 700;
+}
+.dev-item-section-left p {
+  width: 468px;
+  color: rgb(13, 19, 33);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.dev-item-section-left img {
+  width: 259.56px;
+  height: 217.01px;
+}
+
+.learn-more {
+  width: 190px;
+  height: 50px;
+  color: rgb(13, 19, 33);
+  font-size: 23px;
+  font-weight: 600;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  background-color: white;
+}
+
+.dev-item-section-right {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 16px;
+  gap: 40px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  width: 1500px;
+  height: 430px;
+  margin-left: 150px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.dev-item-section-right img {
+  width: 259.56px;
+  height: 217.01px;
+  margin-left: 100px;
+}
+.dev-item-section-right h1 {
+  color: rgba(13, 19, 33, 0.7);
+  width: 490px;
+  font-size: 34px;
+  font-weight: 700;
+}
+.dev-item-section-right p {
+  width: 468px;
+  color: rgb(13, 19, 33);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* End Development Section Style */

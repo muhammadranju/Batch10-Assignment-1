@@ -44,7 +44,7 @@ body {
 }
 .navbar-section h1 {
   color: rgb(13, 19, 33);
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 800;
 }
 .navbar-section button {
@@ -302,8 +302,8 @@ body {
 }
 
 .current-target-item-section {
-  width: 364px;
-  height: 299px;
+  width: 464px;
+  height: 399px;
   border-radius: 16px;
   padding: 50px;
 }
@@ -492,11 +492,16 @@ body {
   padding: 40px 48px 40px 48px;
   text-align: center;
 }
+.footer-text-section h1 {
+  color: rgb(13, 19, 33);
+  font-size: 38px;
+  font-weight: 800;
+}
 .footer-text-section a {
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .copy-right {
@@ -514,5 +519,20 @@ body {
   border: 0.05px solid black;
   height: 0.02px;
   width: 1800px;
+}
+
+.footer-end-section {
+  background: rgba(13, 19, 33, 0.03);
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-end-section a {
+  text-decoration: underline;
+  color: rgb(13, 19, 33);
+}
+.footer-end-section span {
+  color: tomato;
 }
 /*  End Footer Section Style */
